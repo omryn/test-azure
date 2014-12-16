@@ -1,0 +1,7 @@
+git add .
+git commit -am "autosave"
+git push
+git branch -D yosi
+git branch yosi
+git push github yosi
+
