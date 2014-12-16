@@ -1,0 +1,8 @@
+git add .
+git commit -am "autosave"
+git push
+echo ///////////////////////////////////////////
+git branch -D %1
+git branch %1
+git push github %1
+
